@@ -47,6 +47,16 @@ python main.py
 
 ## 配置说明
 
+### 获取 API 密钥
+
+1. 访问 LongCat 官网：https://longcat.chat/
+2. 注册并登录账号
+3. 进入 **API Keys** 页面
+4. 点击 **创建 API Key**
+5. 复制生成的密钥
+
+### 配置文件
+
 编辑 `config.ini` 文件配置 API 参数：
 
 ```ini
@@ -62,7 +72,7 @@ max_retries=5
 
 | 参数 | 说明 |
 |------|------|
-| `key` | API 密钥 |
+| `key` | API 密钥（从 LongCat 官网获取） |
 | `url` | API 接口地址（兼容 OpenAI 格式） |
 | `model` | 模型名称 |
 | `batch_size` | 每批次翻译的消息数量 |
